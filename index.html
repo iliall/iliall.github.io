@@ -26,12 +26,11 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
-<script src="assets/js/three.r134.min.js"></script>
-<script src="assets/js/vanta.net.min.js"></script>
+<script src="three.r134.min.js"></script>
+<script src="vanta.globe.min.js"></script>
 <script>
-window.onload = function() {
-  window.VANTA.RINGS({
-  el: "body",
+VANTA.GLOBE({
+  el: "#your-element-selector",
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
@@ -39,10 +38,10 @@ window.onload = function() {
   minWidth: 200.00,
   scale: 1.00,
   scaleMobile: 1.00,
-  backgroundColor: 0x0,
-  color: 0x0b60b0
+  color: 0x0,
+  size: 0.80,
+  backgroundColor: 0xe8cdc2
 })
-  }
 </script>
 <body>
   
