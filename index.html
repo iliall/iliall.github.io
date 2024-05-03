@@ -29,8 +29,9 @@
 <script src="three.r134.min.js"></script>
 <script src="vanta.globe.min.js"></script>
 <script>
-VANTA.GLOBE({
-  el: "#your-element-selector",
+window.onload = function() {
+  window.VANTA.GLOBE({
+  el: "body",
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
@@ -42,7 +43,9 @@ VANTA.GLOBE({
   size: 0.80,
   backgroundColor: 0xe8cdc2
 })
+}
 </script>
+
 <body>
   
   <!-- ======= Header ======= -->
