@@ -10,8 +10,6 @@ body {
   background: transparent;
 }
 
-
-
 body::before {
   content: "";
   position: fixed;
